@@ -1,0 +1,62 @@
+
+        .my-div {
+            background-image: url('https://www.sharda.ac.in/blog/attachments/blog_images/BTech-in-Computer-Science2-min.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 100%; /* Full width of its container */
+            height: 340px;
+            position: relative;
+        }
+
+        .text-overlay {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6);     
+                   color: black; /* Text color */
+            padding: 10px;
+            width: 100%;
+        }
+
+        .card {
+            overflow: hidden;
+            border-radius: 0;
+        }
+
+        .news-title{
+            font-size: 55px;
+            font-weight: 700;
+        }
+
+        .news-desc{
+            font-size: 30px;
+        }
+
+        .card-img-top {
+            border-radius: 0;
+            transition: transform 0.5s ease;
+        }
+
+        .card:hover .card-img-top {
+            transform: scale(1.04); /* Adjust the scale factor for the desired zoom level */
+        }
+
+        .text-2 {
+            font-size: 28px;
+            padding: 7px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        @media screen and (max-width: 1200px) {
+            .my-div{
+                height: 310px;
+            }
+        }
+        @media screen and (max-width: 991px) {
+            .my-div{
+                height: 350px;
+                background-size: cover;
+            }
+        }
+       
+    
